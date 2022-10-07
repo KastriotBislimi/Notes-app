@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  /* background-color: rgba(48, 68, 139); */
+  background-color: #202020;
+  color: #eeeeee;
+}
+.container {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  margin-top: 5%;
+}
+
+.sideBar {
+  display: flex;
+  flex-direction: column;
+  width: 33%;
+}
+svg {
+  color: #a8a8a8;
+}
